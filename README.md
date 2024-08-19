@@ -1,13 +1,10 @@
-<!-- <img src='https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-hydra-ancient-greek-mythology-monsters-and-creatures-flaticons-lineal-color-flat-icons.png' width='256px'/> -->
 
-![Hydra - Zero Config API Boilerplate with Laravel Sanctum](https://res.cloudinary.com/roxlox/image/upload/v1653133921/hydra/hydra-trnsparent_jcsl4l.png)
 
-# Hydra - Zero Config API Boilerplate with Laravel Sanctum
-![GitHub](https://img.shields.io/github/license/hasinhayder/hydra?label=License&style=flat-square)
+# Zero Config API Boilerplate with Laravel Sanctum
 
-Hydra is a zero-config API boilerplate with Laravel Sanctum and comes with excellent user and role management API out of the box. Start your next big API project with Hydra, focus on building business logic, and save countless hours of writing boring user and role management API again and again.
+Zero-config API boilerplate with Laravel Sanctum and comes with excellent user and role management API out of the box.
 
-Hydra works with Laravel 10.x and Sanctum 3.x. If you want to work with Laravel 9.x then checkout the 9.x branch.
+Works with Laravel 10.x and Sanctum 3.x.
 
 - [Hydra - Zero Config API Boilerplate with Laravel Sanctum](#hydra---zero-config-api-boilerplate-with-laravel-sanctum)
   - [Getting Started](#getting-started)
