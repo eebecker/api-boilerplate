@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\UserRoleController;
@@ -18,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 //use the middleware 'hydra.log' with any request to get the detailed headers, request parameters and response logged in logs/laravel.log
+
+Route::get('status', [ApiController::class, 'status']);
+Route::get('version', [ApiController::class, 'version']);
 
 Route::apiResource('users', UserController::class)->except(['edit', 'create', 'store', 'update'])->middleware(['auth:sanctum', 'ability:admin,super-admin']);
 Route::post('users', [UserController::class, 'store']);
